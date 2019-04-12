@@ -1,0 +1,3 @@
+node_modules/
+Code/TypeScript/**/*.js
+.DS_Store
