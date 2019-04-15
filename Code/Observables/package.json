@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "rxjs": "^6.4.0",
-    "typescript": "^3.4.3",
-    "xmlhttprequest": "^1.8.0"
+    "typescript": "^3.4.3"
   }
 }
