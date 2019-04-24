@@ -18,18 +18,11 @@ var msg = add('hello', 'world');
 
 
 // --strictNullChecks
-function listFriends(friends) {
+function listFriends(friends: any[] | null) {
     friends.forEach(function(friend) {
         console.log(friend.name);
     })
 }
-
-var person = {
-    name: 'Guy',
-    age: 45,
-    friends: null
-};
-
 
 
 

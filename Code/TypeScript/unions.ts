@@ -1,8 +1,10 @@
-interface IRectangle {
-    width: number;
-    height: number;
+interface IFish {
+    move(x: number, y: number);
+    eat();
+    swim();
 }
 
-function Area(shape: IRectangle) {
-    return shape.width * shape.height;
+function moveAnimalAndEat(animal: IFish, x: number, y: number) {
+    animal.move(x, y);
+    animal.eat();
 }

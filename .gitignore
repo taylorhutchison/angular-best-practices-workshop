@@ -1,3 +1,4 @@
 node_modules/
 Code/TypeScript/**/*.js
+Code/Observables/**/*.js
 .DS_Store
